@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+form h4 {
+  padding-right: 10px;
+}
+
+.list-heading {
+  color: red !important;
+}
+
+.politicianInterests {
+  margin: 30px;
+}
+
+.politician {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.politician p {
+  width: 50%;
+  margin: 0;
+}
+
+.billInterests {
+  margin: 30px;
+}
+
+.bill {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bill p {
+  width: 33%;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.conflicts {
+  margin: 30px;
+}
+
+.conflict {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.conflict p {
+  width: 25%;
+  margin: 0;
+  padding-top: 20px;
+}
+
